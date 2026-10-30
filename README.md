@@ -2,11 +2,12 @@
 An end-to-end Machine Learning project that predicts customer churn using a Gradient Boosting Classifier. The project includes data analysis, model training, evaluation, and an interactive Streamlit web application for generating predictions.
 
 <p align="center">
+  <a href=" https://customer-churn-prediction-kdsljhrjqglft44gxlulqx.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit" alt="Live Demo">
+  </a>
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange" alt="Machine Learning">
-  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Deployment-Live-success" alt="Deployment">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
 </p>
 
 
@@ -66,19 +67,86 @@ The Following results are from the model evaluation previously recorded for this
 These metrics describe the recorded evaluation and may vary with the dataset split ,model version , and prediction thresold.
 ## Project Structure
 
-Run the Project Locally
-### Prereuisites
-Python installed
-Git installed
-pip package manager
+## 📁 Project Structure
 
-### 1. Clone the repositry
+```text
+Customer_churn_prediction/
+│
+├── .gitignore
+├── app.py
+├── train.py
+├── data_analysis.ipynb
+├── requirements.txt
+├── README.md
+├── LICENSE
+│
+├── data/
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
+├── models/
+│   ├── churn_threshold.pkl
+│   └── customer_churn_model.pkl
+│
+└── notebooks/
+```
+
+
+Run the Project Locally
+
+## Installation & Setup
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Python installed
+- Git installed
+- pip package manager
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/bhumimishra204/Customer-churn-prediction.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
 cd Customer-churn-prediction
-### 2. Create a virtual environment
-### 3. Activate the virtual environment
-### 4. Install the required dependencies
-### 5. Run the Streamlit application
+```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the virtual environment
+
+For Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 5. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Streamlit application
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open in your browser:
+
+```text
+http://localhost:8501
+```
+
 
 ##  Future Improvements
 
