@@ -1,6 +1,15 @@
 # Customer-churn-prediction
 An end-to-end Machine Learning project that predicts customer churn using a Gradient Boosting Classifier. The project includes data analysis, model training, evaluation, and an interactive Streamlit web application for generating predictions.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Deployment-Live-success" alt="Deployment">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" alt="Status">
+</p>
+
+
 # Live Demo
 **Try the application:**
 
