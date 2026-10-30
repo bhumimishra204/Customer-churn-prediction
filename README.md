@@ -11,7 +11,7 @@ An end-to-end Machine Learning project that predicts customer churn using a Grad
 
 
 # Live Demo
-**Try the application:**
+**Try the application:** https://customer-churn-prediction-kdsljhrjqglft44gxlulqx.streamlit.app/
 
 # Project Overview
 Customer churn occurs when customers stop using a company's products or services. Predicting churn helps businesses identify customers who may leave and take proactive steps to improve customer retention.
